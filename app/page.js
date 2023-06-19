@@ -4,22 +4,30 @@ import Slideshow from "@/components/Slideshow";
 import Review from "@/components/Review";
 
 //hero images
-import DSC06579 from "@/public/static/images/DSC06579.jpg";
-import DSC06622 from "@/public/static/images/DSC06622.jpg";
-import DSC06830 from "@/public/static/images/DSC06830.jpg";
+import a from "@/public/static/images/a.jpg";
+import b from "@/public/static/images/b.jpg";
+import c from "@/public/static/images/c.jpg";
+import d from "@/public/static/images/d.jpg";
+import e from "@/public/static/images/e.jpg";
+import f from "@/public/static/images/f.jpg";
+import g from "@/public/static/images/g.jpg";
+import h from "@/public/static/images/h.jpg";
+import i from "@/public/static/images/i.jpg";
+import j from "@/public/static/images/j.jpg";
+import k from "@/public/static/images/k.jpg";
+import l from "@/public/static/images/l.jpg";
+import m from "@/public/static/images/m.jpg";
+import n from "@/public/static/images/n.jpg";
+import p from "@/public/static/images/p.jpg";
+import q from "@/public/static/images/q.jpg";
 
-//aout images
-import DSC07710 from "@/public/static/images/DSC07710.jpg";
-import DSC07753 from "@/public/static/images/DSC07753.jpg";
-
-const heroImages = [DSC06622, DSC06579, DSC06830];
-const images = [DSC07710, DSC07753];
+const images = [a, p, b, c, j, d, q, e, m, f, g, h, i, k, l, n];
 
 export default function Home() {
   return (
     <div id="main" className="flex flex-col items-center">
       <Slideshow
-        images={heroImages}
+        images={images}
         styles="relative h-[30vh] w-[100%] lg:h-[90vh]"
       />
       {/* welcome to paros container */}
@@ -54,13 +62,13 @@ export default function Home() {
           className=" hidden h-[35vh] w-[100%] flex-col justify-between lg:flex lg:flex-row"
         >
           <div className="  w-full lg:h-full lg:w-[32%]  ">
-            <Image src={DSC06579} className="h-[100%] w-[100%] object-cover " />
+            <Image src={m} className="h-[100%] w-[100%] object-cover " />
           </div>
           <div className="h-full w-[32%]  ">
-            <Image src={DSC06622} className="h-[100%] w-[100%] object-cover" />
+            <Image src={d} className="h-[100%] w-[100%] object-cover" />
           </div>
           <div className="h-full w-[32%]  ">
-            <Image src={DSC06830} className="h-[100%] w-[100%] object-cover " />
+            <Image src={l} className="h-[100%] w-[100%] object-cover " />
           </div>
         </div>
         <Link href="/menu">

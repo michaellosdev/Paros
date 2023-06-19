@@ -650,9 +650,11 @@ function page() {
           </div>
         </div>
       </div>
+      <div className="flex h-fit w-[100%] items-center justify-center ">
+        <Gallery />
+      </div>
 
       {/* <OrderButton /> */}
-      <Gallery />
     </div>
   );
 }

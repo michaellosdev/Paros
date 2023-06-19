@@ -3,23 +3,24 @@
 import Slideshow from "@/components/Slideshow";
 import { useState } from "react";
 
-import DSC06579 from "@/public/static/images/DSC06579.jpg";
-import DSC06593 from "@/public/static/images/DSC06593.jpg";
-import DSC07767 from "@/public/static/images/DSC07767.jpg";
-import DSC06768 from "@/public/static/images/DSC06768.jpg";
-import DSC06799 from "@/public/static/images/DSC06799.jpg";
-import DSC06845 from "@/public/static/images/DSC06845.jpg";
-import DSC06864 from "@/public/static/images/DSC06864.jpg";
+import a from "@/public/static/images/a.jpg";
+import b from "@/public/static/images/b.jpg";
+import c from "@/public/static/images/c.jpg";
+import d from "@/public/static/images/d.jpg";
+import e from "@/public/static/images/e.jpg";
+import f from "@/public/static/images/f.jpg";
+import g from "@/public/static/images/g.jpg";
+import h from "@/public/static/images/h.jpg";
+import i from "@/public/static/images/i.jpg";
+import j from "@/public/static/images/j.jpg";
+import k from "@/public/static/images/k.jpg";
+import l from "@/public/static/images/l.jpg";
+import m from "@/public/static/images/m.jpg";
+import n from "@/public/static/images/n.jpg";
+import p from "@/public/static/images/p.jpg";
+import q from "@/public/static/images/q.jpg";
 
-const heroImages = [
-  DSC06579,
-  DSC06593,
-  DSC07767,
-  DSC06768,
-  DSC06799,
-  DSC06845,
-  DSC06864,
-];
+const images = [a, p, b, c, j, d, q, e, m, f, g, h, i, k, l, n];
 
 function page() {
   const [formState, setFormState] = useState({
@@ -68,7 +69,7 @@ function page() {
   return (
     <div className="flex h-fit w-full flex-col items-center ">
       <Slideshow
-        images={heroImages}
+        images={images}
         styles="relative h-[30vh] w-[100%] lg:h-[60vh]"
       />
       <div className=" h-fit w-[95%] py-16 lg:w-[80%] ">

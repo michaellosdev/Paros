@@ -3,13 +3,6 @@
 import Slideshow from "@/components/Slideshow";
 import { useState } from "react";
 
-export async function generateMetadata({ params }) {
-  return {
-    title: "Contact Us",
-    description: "Contact page",
-  };
-}
-
 import DSC06579 from "@/public/static/images/DSC06579.jpg";
 import DSC06593 from "@/public/static/images/DSC06593.jpg";
 import DSC07767 from "@/public/static/images/DSC07767.jpg";

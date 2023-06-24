@@ -23,12 +23,13 @@ const allImages = [a, b, c, d, e, f];
 function Gallery() {
   return (
     <div className="flex h-fit w-full flex-wrap justify-center py-8">
+      
       {allImages.map((src, index) => (
-        <div key={index} className="m-4 h-60 lg:w-[30%]">
+        <div key={index} className="m-4 h-96  lg:w-[30%]">
           <Image
             src={src}
             alt={`Gallery ${index}`}
-            className="max-h-[100%] max-w-[100%] object-cover object-center"
+            className="h-[100%] w-[100%] object-center object-cover "
           />
         </div>
       ))}

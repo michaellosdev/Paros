@@ -244,98 +244,6 @@ function page() {
       {/* wraps salads section */}
       <div className="darker-blue-bg flex h-fit w-full flex-col items-center justify-center py-16 text-white">
         <div className="h-fit w-[95%] lg:w-[80%]">
-          <div className="mb-6 flex h-20 w-full items-end justify-between border-b-4 pb-2">
-            <h2 className="text-2xl font-semibold lg:text-5xl">A LA CARTE</h2>
-          </div>
-          <div className="">
-            <div className="flex flex-col text-xl lg:flex-row ">
-              <div className="flex h-fit w-full flex-col justify-between ">
-                <ul>
-                  <li>
-                    <div className="mb-2 flex justify-between ">
-                      <p>Beef Kabob</p>
-                      <div className="flex">
-                        {/* <p className="mr-4 font-medium ">$4.00</p> */}
-                        <p className="font-medium">$17.00</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-2 flex justify-between ">
-                      <p>Chicken Kabob</p>
-                      <div className="flex">
-                        {/* <p className="mr-4 font-medium ">$4.00</p> */}
-                        <p className="font-medium">$10.00</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-2 flex justify-between ">
-                      <p>Beef Lule Kabob</p>
-                      <div className="flex">
-                        {/* <p className="mr-4 font-medium ">$4.00</p> */}
-                        <p className="font-medium">$12.00</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-2 flex justify-between ">
-                      <p>Chicken Lule Kabob</p>
-                      <div className="flex">
-                        {/* <p className="mr-4 font-medium ">$4.00</p> */}
-                        <p className="font-medium">$10.00</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-2 flex justify-between ">
-                      <p>Lamb Chops</p>
-                      <div className="flex">
-                        {/* <p className="mr-4 font-medium ">$4.00</p> */}
-                        <p className="font-medium">$20.00</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-2 flex justify-between ">
-                      <p>Baby Back Ribs</p>
-                      <div className="flex">
-                        {/* <p className="mr-4 font-medium ">$4.00</p> */}
-                        <p className="font-medium">$15.00</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-2 flex justify-between ">
-                      <p>Salmon</p>
-                      <div className="flex">
-                        {/* <p className="mr-4 font-medium ">$4.00</p> */}
-                        <p className="font-medium">$15.00</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-2 flex justify-between ">
-                      <p>Beef Ranchera</p>
-                      <div className="flex">
-                        {/* <p className="mr-4 font-medium ">$4.00</p> */}
-                        <p className="font-medium">$17.00</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="mb-2 flex justify-between ">
-                      <p>Chciken Ranchera</p>
-                      <div className="flex">
-                        {/* <p className="mr-4 font-medium ">$4.00</p> */}
-                        <p className="font-medium">$10.00</p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
           <div className="flex h-20 w-full items-end justify-between border-b-4 border-white pb-2 text-white">
             <h2 className="text-2xl font-semibold lg:text-5xl">WRAPS</h2>
             <h2 className="text-2xl font-light lg:text-5xl">$11.00</h2>
@@ -354,7 +262,7 @@ function page() {
                 <ul>
                   <li>
                     <div className="mb-2 flex justify-between  lg:pr-8">
-                      <p>Chciken Kabob</p>
+                      <p>Chicken Kabob</p>
                       {/* <p className="font-semibold">+$6.50</p> */}
                     </div>
                   </li>
@@ -452,12 +360,6 @@ function page() {
                   <li>
                     <div className="mb-2 flex justify-between  ">
                       <p>Greek Salad</p>
-                      <p className="font-medium">$8.50</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className=" mb-2 flex  justify-between">
-                      <p>Orzo Pasta Salad</p>
                       <p className="font-medium">$8.50</p>
                     </div>
                   </li>
@@ -562,6 +464,15 @@ function page() {
                   <li>
                     <div className="mb-2 flex justify-between ">
                       <p>Baba Ganush</p>
+                      <div className="flex">
+                        <p className="mr-3 font-medium">$5.00</p>
+                        <p className="font-medium">$10.00</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className=" mb-2 flex  justify-between">
+                      <p>Orzo Pasta Salad</p>
                       <div className="flex">
                         <p className="mr-3 font-medium">$5.00</p>
                         <p className="font-medium">$10.00</p>

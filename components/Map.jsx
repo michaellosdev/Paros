@@ -47,9 +47,11 @@ function Map() {
         </div>
         <div className="flex h-1/3 w-full flex-col justify-center text-center md:h-full md:w-1/2 md:text-right">
           <h3 className="text-xl font-medium lg:text-3xl">Address:</h3>
-          <h4 className="text-xl font-thin lg:text-2xl">
-            8499 Sunland Blvd, Sun Valley, CA
-          </h4>
+          <a href="https://goo.gl/maps/AvycpPFzAcvbdA6p9">
+            <h4 className="text-xl font-thin lg:text-2xl">
+              8499 Sunland Blvd, Sun Valley, CA
+            </h4>
+          </a>
           <a
             href="tel:+18189623480"
             className="hidden text-lg font-thin md:block lg:text-2xl"

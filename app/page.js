@@ -32,25 +32,25 @@ export default function Home() {
       />
       {/* welcome to paros container */}
       <div
-        className={` flex h-fit w-[90%] flex-col items-center justify-center py-12 text-justify lg:h-fit lg:w-[70%]`}
+        className={` flex h-fit w-[90%] flex-col items-center justify-center py-12  lg:h-fit lg:w-[70%]`}
       >
         <h1 className="darker-blue-text opa py-8 text-3xl font-bold lg:text-5xl ">
           Welcome to Paros
         </h1>
 
         <p className="darker-blue-text mb-8 text-lg lg:text-2xl">
-          <b>We are</b> Family Restaurant, a cherished cornerstone of Los
-          Angeles, California. We're known not just for our excellent
-          Mediterranean cuisine, but for our commitment to superior service and
-          warm, welcoming atmosphere. <br /> <br /> &nbsp; &nbsp; Whether you're
-          joining us for a meal, picking up a takeout order, or utilizing our
-          efficient delivery service, you'll enjoy a taste of the Mediterranean
-          prepared with care and the freshest ingredients. Our friendly staff is
-          dedicated to making your experience memorable with every visit or
-          order. <br /> <br /> &nbsp; &nbsp; Paro's is more than a restaurant;
-          it's a family tradition and a vital part of the Los Angeles community.
-          Experience the magic of Mediterranean dining with us today at Paro's
-          Family Restaurant.
+          &nbsp; &nbsp;<b>We are</b> a Family Restaurant, a cherished
+          cornerstone of Los Angeles, California. We're known not just for our
+          excellent Mediterranean cuisine, but for our commitment to superior
+          service and warm, welcoming atmosphere. <br /> <br /> &nbsp; &nbsp;
+          Whether you're joining us for a meal, picking up a takeout order, or
+          utilizing our efficient delivery service, you'll enjoy a taste of the
+          Mediterranean prepared with care and the freshest ingredients. Our
+          friendly staff is dedicated to making your experience memorable with
+          every visit or order. <br /> <br /> &nbsp; &nbsp; Paros is more than a
+          restaurant; it's a family tradition and a vital part of the Los
+          Angeles community. Experience the magic of Mediterranean dining with
+          us today at Paros Family Restaurant.
         </p>
 
         <Slideshow
@@ -78,21 +78,21 @@ export default function Home() {
         </Link>
       </div>
       {/* let us come to you */}
-      <div className="primary-bg flex h-fit w-full flex-col items-center justify-center py-8 text-justify text-white lg:h-[75vh] ">
+      <div className="primary-bg flex h-fit w-full flex-col items-center justify-center py-8 text-white lg:h-[75vh] ">
         <div className="flex  w-[90%] flex-col items-center justify-center lg:w-[70%] ">
           <h2 className="my-8 flex-col text-center text-3xl font-semibold lg:text-5xl ">
             Let us come to you!
           </h2>
           <p className=" mb-8 text-lg lg:text-2xl">
-            Whether you want to visit us or prefer us to bring Paro's experience
-            to you, the choice is yours. Our comprehensive catering services
-            extend the ambiance and culinary excellence of Paro's Family
-            Restaurant to your special events. From private parties to corporate
-            gatherings, our dedicated team is ready to create an unforgettable
-            Mediterranean feast for you and your guests. We handle all the
-            details so you can savor the moments with your guests. For more
-            information, navigate to our 'Catering' page or get in touch with us
-            directly.
+            &nbsp; &nbsp; Whether you want to visit us or prefer us to bring
+            Paros experience to you, the choice is yours. Our comprehensive
+            catering services extend the ambiance and culinary excellence of
+            Paros Family Restaurant to your special events. From private parties
+            to corporate gatherings, our dedicated team is ready to create an
+            unforgettable Mediterranean feast for you and your guests. We handle
+            all the details so you can savor the moments with your guests. For
+            more information, navigate to our 'Catering' page or get in touch
+            with us directly.
           </p>
 
           <Link href="/catering">

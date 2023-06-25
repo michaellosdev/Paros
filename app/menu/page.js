@@ -231,7 +231,7 @@ function page() {
                   </li>
                   <li>
                     <div className="mb-2 flex justify-between  lg:pr-8">
-                      <p>Cucmber Salad</p>
+                      <p>Cucumber Salad</p>
                     </div>
                   </li>
                 </ul>
@@ -490,7 +490,7 @@ function page() {
                   </li>
                   <li>
                     <div className="mb-2 flex justify-between ">
-                      <p>Pikled Turnip</p>
+                      <p>Pickled Turnip</p>
                       <div className="flex">
                         <p className="mr-4 font-medium">$4.00</p>
                         <p className="font-medium">$8.00</p>

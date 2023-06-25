@@ -42,7 +42,7 @@ function page() {
               <ul>
                 <li>
                   <div className="mb-2 flex justify-center">
-                    <p>Chicken Beef</p>
+                    <p>Beef Kabob</p>
                     {/* <p className="font-semibold">+$6.50</p> */}
                   </div>
                 </li>
@@ -184,7 +184,7 @@ function page() {
             <div className="flex h-fit w-full flex-col justify-between text-center lg:w-1/2">
               <h3 className="darker-blue-text my-4 text-3xl font-bold">
                 {" "}
-                CORPORATE LUCNH CATERING
+                CORPORATE LUNCH CATERING
               </h3>{" "}
               <h4 className="dark-blue-text">
                 $20 p/p (Minimum 6 people){" "}
@@ -221,7 +221,7 @@ function page() {
               <ul>
                 <li>
                   <div className="mb-2 flex justify-center">
-                    <p>Chicken Beef</p>
+                    <p>Beef Kabob</p>
                     {/* <p className="font-semibold">+$6.50</p> */}
                   </div>
                 </li>
@@ -245,7 +245,7 @@ function page() {
                 </li>
                 <li>
                   <div className="mb-2 flex justify-center">
-                    <p>BEef Ranchera</p>
+                    <p>Beef Ranchera</p>
                     {/* <p className="font-semibold">+$6.50</p> */}
                   </div>
                 </li>
@@ -575,7 +575,7 @@ function page() {
               <ul>
                 <li>
                   <div className="mb-2 flex w-full justify-between">
-                    <p>Humus</p>
+                    <p>Hummus</p>
                     <div className="flex">
                       <p className="mr-4 font-medium ">$25.00</p>
                       <p className="font-medium">$50.00</p>

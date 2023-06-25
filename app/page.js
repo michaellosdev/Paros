@@ -21,7 +21,7 @@ import n from "@/public/static/images/n.jpg";
 import p from "@/public/static/images/p.jpg";
 import q from "@/public/static/images/q.jpg";
 
-const images = [a, p, b, c, j, d, q, e, m, f, g, h, i, k, l, n];
+const images = [p, b, j, d, q, m, f, g, h, i, k, l, n];
 
 export default function Home() {
   return (
@@ -39,18 +39,18 @@ export default function Home() {
         </h1>
 
         <p className="darker-blue-text mb-8 text-lg lg:text-2xl">
-          &nbsp; &nbsp;<b>We are</b> a Family Restaurant, a cherished
-          cornerstone of Los Angeles, California. We're known not just for our
-          excellent Mediterranean cuisine, but for our commitment to superior
-          service and warm, welcoming atmosphere. <br /> <br /> &nbsp; &nbsp;
-          Whether you're joining us for a meal, picking up a takeout order, or
-          utilizing our efficient delivery service, you'll enjoy a taste of the
-          Mediterranean prepared with care and the freshest ingredients. Our
-          friendly staff is dedicated to making your experience memorable with
-          every visit or order. <br /> <br /> &nbsp; &nbsp; Paros is more than a
-          restaurant; it's a family tradition and a vital part of the Los
-          Angeles community. Experience the magic of Mediterranean dining with
-          us today at Paros Family Restaurant.
+          &nbsp; &nbsp;We are a Family Restaurant, a cherished cornerstone of
+          Los Angeles, California. We're known not just for our excellent
+          Mediterranean cuisine, but for our commitment to superior service and
+          warm, welcoming atmosphere. <br /> <br /> &nbsp; &nbsp; Whether you're
+          joining us for a meal, picking up a takeout order, or utilizing our
+          efficient delivery service, you'll enjoy a taste of the Mediterranean
+          prepared with care and the freshest ingredients. Our friendly staff is
+          dedicated to making your experience memorable with every visit or
+          order. <br /> <br /> &nbsp; &nbsp; Paros is more than a restaurant;
+          it's a family tradition and a vital part of the Los Angeles community.
+          Experience the magic of Mediterranean dining with us today at Paros
+          Family Restaurant.
         </p>
 
         <Slideshow

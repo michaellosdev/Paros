@@ -28,8 +28,8 @@ function Slideshow({ images, ...props }) {
           alt={`Slide ${index + 1}`}
           className={
             index === currentIndex
-              ? "slide active h-[100%] w-[100%] object-center object-cover"
-              : "slide h-[100%] w-[100%] object-center object-cover"
+              ? "slide active h-[100%] w-[100%] object-cover object-top"
+              : "slide h-[100%] w-[100%] object-cover object-top"
           }
         />
       ))}

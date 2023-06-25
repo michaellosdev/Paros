@@ -4,7 +4,8 @@ import logo from "@/public/static/images/Logo white.png";
 import yelp from "@/public/static/images/yelp.png";
 import facebook from "@/public/static/images/facebook.png";
 import instagram from "@/public/static/images/instagram.png";
-import menu from "@/public/static/images/menu.png";
+// import menu from "@/public/static/images/menu.png";
+import menu from "@/public/static/images/menu.jpg";
 
 function Footer() {
   return (
@@ -24,15 +25,17 @@ function Footer() {
           </h3>
         </div>
         <div className="flex h-full w-1/2 flex-col items-center ">
-          <div className="flex h-4/6 w-full items-center justify-center p-10  ">
-            <Image
-              src={menu}
-              className="max-h-[100%] max-w-[100%] object-contain"
-            />
-          </div>
-          <h3 className="text-center text-xl font-thin md:text-3xl">
-            DOWNLOAD OUR MENU
-          </h3>
+          <a href={menu.src} target="_blank">
+            <div className="flex h-4/6 w-full items-center justify-center p-10  ">
+              <Image
+                src={menu}
+                className="max-h-[100%] max-w-[100%] object-contain"
+              />
+            </div>
+            <h3 className="text-center text-xl font-thin md:text-3xl">
+              DOWNLOAD OUR MENU
+            </h3>
+          </a>
         </div>
       </div>
       {/* footer bottom */}

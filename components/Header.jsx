@@ -19,8 +19,8 @@ function Header() {
   }, [open]);
 
   return (
-    <header className="flex h-24 w-full items-center justify-between  px-2 md:px-14 lg:h-36">
-      <div className="flex h-[100%] w-3/4 items-center justify-center md:w-[25%] md:p-4 ">
+    <header className="flex h-24 w-full items-center justify-center  px-2 md:px-14 lg:h-36">
+      <div className="flex h-[100%] w-3/4 items-center justify-center md:w-[20%] md:p-2">
         <Image
           src={logo}
           alt="logo"
@@ -28,7 +28,7 @@ function Header() {
         />
       </div>
       {/* desktop menu */}
-      <nav className="primary-text hidden h-full w-[50%] items-center justify-center justify-self-center text-xl font-semibold lg:flex">
+      <nav className="primary-text  mx-8 hidden h-full w-fit items-center justify-center  text-xl font-semibold lg:flex">
         <div
           className={`menu-item mx-4 flex  h-8 w-24 flex-col items-center justify-between`}
         >
@@ -151,13 +151,13 @@ function Header() {
         </div>
       </div>
 
-      <div className="hidden h-full w-[25%] items-center justify-center lg:flex ">
+      <div className="hidden h-full w-[20%] items-center justify-center lg:flex ">
         <a
           href="https://www.toasttab.com/paros-family-restaurant-929-e-verdugo-ave/v3/?mode=fulfillment"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-dark-blue darker-blue-bg mx-4  rounded-xl px-10 py-4 text-lg font-semibold text-white shadow-lg duration-300 hover:bg-blue-300 lg:px-10 lg:py-4 lg:text-xl">
+          <button className="bg-dark-blue darker-blue-bg l  w-full rounded-xl px-10 py-4 text-lg font-semibold text-white shadow-lg duration-300   hover:bg-blue-300">
             Order Online
           </button>
         </a>

@@ -53,7 +53,7 @@ function page() {
                 <ul>
                   <li>
                     <div className="mb-2 flex justify-between  lg:pr-8">
-                      <p>Chciken Kabob</p>
+                      <p>Chicken Kabob</p>
                       {/* <p className="font-semibold">+$6.50</p> */}
                     </div>
                   </li>
@@ -698,8 +698,10 @@ function page() {
         <div className="flex h-fit w-full flex-col justify-between text-xl">
           <ul>
             <li className="mb-2">Ranch</li>
-            <li className="mb-2">Rice |Pilaf|</li>
-            <li className="mb-2">Mixed Greens</li>
+            <li className="mb-2">Thousand Island</li>
+            <li className="mb-2">Home Made Salad Dressing</li>
+            <li className="mb-2">House Salsa</li>
+            <li className="mb-2">Garlic</li>
           </ul>
         </div>
       </div>

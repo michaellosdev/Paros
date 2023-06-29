@@ -34,7 +34,12 @@ function page() {
           {" "}
           Contact Us
         </h1>
-        <form className="space-y-4" onSubmit={handleSubmit} netlify>
+        <form
+          className="space-y-4"
+          onSubmit={handleSubmit}
+          data-netlify="true"
+          method="POST"
+        >
           <div className="flex space-x-4">
             <input
               type="text"

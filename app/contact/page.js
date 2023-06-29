@@ -3,22 +3,22 @@
 import Slideshow from "@/components/Slideshow";
 import { useState } from "react";
 
-import a from "@/public/static/images/a.jpg";
-import b from "@/public/static/images/b.jpg";
-import c from "@/public/static/images/c.jpg";
-import d from "@/public/static/images/d.jpg";
-import e from "@/public/static/images/e.jpg";
-import f from "@/public/static/images/f.jpg";
-import g from "@/public/static/images/g.jpg";
-import h from "@/public/static/images/h.jpg";
-import i from "@/public/static/images/i.jpg";
-import j from "@/public/static/images/j.jpg";
-import k from "@/public/static/images/k.jpg";
-import l from "@/public/static/images/l.jpg";
-import m from "@/public/static/images/m.jpg";
-import n from "@/public/static/images/n.jpg";
-import p from "@/public/static/images/p.jpg";
-import q from "@/public/static/images/q.jpg";
+import a from "@/public/static/images/a.webp";
+import b from "@/public/static/images/b.webp";
+import c from "@/public/static/images/c.webp";
+import d from "@/public/static/images/d.webp";
+import e from "@/public/static/images/e.webp";
+import f from "@/public/static/images/f.webp";
+import g from "@/public/static/images/g.webp";
+import h from "@/public/static/images/h.webp";
+import i from "@/public/static/images/i.webp";
+import j from "@/public/static/images/j.webp";
+import k from "@/public/static/images/k.webp";
+import l from "@/public/static/images/l.webp";
+import m from "@/public/static/images/m.webp";
+import n from "@/public/static/images/n.webp";
+import p from "@/public/static/images/p.webp";
+import q from "@/public/static/images/q.webp";
 
 const images = [a, p, b, c, j, d, q, e, m, f, g, h, i, k, l, n];
 

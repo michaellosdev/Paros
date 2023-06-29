@@ -9,7 +9,7 @@ import menu from "@/public/static/images/menu.jpg";
 
 function Footer() {
   return (
-    <div className="primary-bg h-fit text-white md:h-[60vh]">
+    <div className="primary-bg h-fit text-gray-300 md:h-[60vh]">
       {/* footer container */}
       <div className="flex h-fit w-full flex-col items-center justify-center md:h-[70%] md:flex-row">
         {/* footer top */}
@@ -18,6 +18,7 @@ function Footer() {
             <Image
               src={logo}
               className="max-h-[100%] max-w-[100%] object-contain"
+              alt="logo"
             />
           </div>
           <h3 className="text-center text-xl font-thin md:text-3xl">
@@ -30,6 +31,7 @@ function Footer() {
               <Image
                 src={menu}
                 className="max-h-[100%] max-w-[100%] object-contain"
+                alt="menu"
               />
             </div>
             <h3 className="text-center text-xl font-thin md:text-3xl">
@@ -45,12 +47,14 @@ function Footer() {
           className="mx-4 h-full w-[10%] "
         >
           <Image
+            alt="yelp logo"
             src={yelp}
             className="max-h-[100%] max-w-[100%] object-contain"
           />
         </a>
         <a href="#f" className="mx-4 h-full w-[10%]">
           <Image
+            alt="facebook logo"
             src={facebook}
             className="max-h-[100%] max-w-[100%] object-contain"
           />
@@ -60,6 +64,7 @@ function Footer() {
           className="mx-4 h-full w-[10%]"
         >
           <Image
+            alt="instagram logo"
             src={instagram}
             className="max-h-[100%] max-w-[100%] object-contain"
           />

@@ -79,6 +79,8 @@ function Header() {
         <button
           onClick={() => setOpen(!open)}
           className="z-[999] mr-4 flex h-6 w-6 flex-col justify-around"
+          aria-label="menu button"
+          alt="menu button"
         >
           <div
             className={`h-0.5 w-6 bg-black transition-transform duration-500 ${

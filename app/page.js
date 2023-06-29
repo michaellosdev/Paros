@@ -4,22 +4,22 @@ import Slideshow from "@/components/Slideshow";
 import Review from "@/components/Review";
 
 //hero images
-import a from "@/public/static/images/a.jpg";
-import b from "@/public/static/images/b.jpg";
-import c from "@/public/static/images/c.jpg";
-import d from "@/public/static/images/d.jpg";
-import e from "@/public/static/images/e.jpg";
-import f from "@/public/static/images/f.jpg";
-import g from "@/public/static/images/g.jpg";
-import h from "@/public/static/images/h.jpg";
-import i from "@/public/static/images/i.jpg";
-import j from "@/public/static/images/j.jpg";
-import k from "@/public/static/images/k.jpg";
-import l from "@/public/static/images/l.jpg";
-import m from "@/public/static/images/m.jpg";
-import n from "@/public/static/images/n.jpg";
-import p from "@/public/static/images/p.jpg";
-import q from "@/public/static/images/q.jpg";
+import a from "@/public/static/images/a.webp";
+import b from "@/public/static/images/b.webp";
+import c from "@/public/static/images/c.webp";
+import d from "@/public/static/images/d.webp";
+import e from "@/public/static/images/e.webp";
+import f from "@/public/static/images/f.webp";
+import g from "@/public/static/images/g.webp";
+import h from "@/public/static/images/h.webp";
+import i from "@/public/static/images/i.webp";
+import j from "@/public/static/images/j.webp";
+import k from "@/public/static/images/k.webp";
+import l from "@/public/static/images/l.webp";
+import m from "@/public/static/images/m.webp";
+import n from "@/public/static/images/n.webp";
+import p from "@/public/static/images/p.webp";
+import q from "@/public/static/images/q.webp";
 
 const images = [p, b, j, d, q, m, f, g, h, i, k, l, n];
 
@@ -62,13 +62,25 @@ export default function Home() {
           className=" hidden h-[35vh] w-[100%] flex-col justify-between lg:flex lg:flex-row"
         >
           <div className="  w-full lg:h-full lg:w-[32%]  ">
-            <Image src={m} className="h-[100%] w-[100%] object-cover " />
+            <Image
+              src={m}
+              className="h-[100%] w-[100%] object-cover "
+              alt="Food image"
+            />
           </div>
           <div className="h-full w-[32%]  ">
-            <Image src={d} className="h-[100%] w-[100%] object-cover" />
+            <Image
+              src={d}
+              className="h-[100%] w-[100%] object-cover"
+              alt="Food image 2"
+            />
           </div>
           <div className="h-full w-[32%]  ">
-            <Image src={l} className="h-[100%] w-[100%] object-cover " />
+            <Image
+              src={l}
+              className="h-[100%] w-[100%] object-cover "
+              alt="Food Image"
+            />
           </div>
         </div>
         <Link href="/menu">
@@ -78,7 +90,7 @@ export default function Home() {
         </Link>
       </div>
       {/* let us come to you */}
-      <div className="primary-bg flex h-fit w-full flex-col items-center justify-center py-8 text-white lg:h-[75vh] ">
+      <div className="dark-blue-bg flex h-fit w-full flex-col items-center justify-center py-8 text-white lg:h-[75vh] ">
         <div className="flex  w-[90%] flex-col items-center justify-center lg:w-[70%] ">
           <h2 className="my-8 flex-col text-center text-3xl font-semibold lg:text-5xl ">
             Let us come to you!
@@ -96,7 +108,7 @@ export default function Home() {
           </p>
 
           <Link href="/catering">
-            <button className=" bg-dark-blue darker-blue-bg mt-8 rounded-xl px-14 py-4 text-lg font-semibold text-white shadow-lg duration-300 hover:bg-blue-300 lg:px-32 lg:py-6 lg:text-2xl ">
+            <button className=" primary-bg mt-8 rounded-xl px-14 py-4 text-lg font-semibold text-white shadow-lg duration-300 hover:bg-blue-300 lg:px-32 lg:py-6 lg:text-2xl ">
               CATERING MENU
             </button>
           </Link>

@@ -106,14 +106,18 @@ const Review = async () => {
               <p className="text-md">
                 {review.text}{" "}
                 {review.text.endsWith("...") ? (
-                  <a href={review.url} className="primary-text">
-                    Read more
+                  <a
+                    href={review.url}
+                    className="darker-blue-text"
+                    aria-label="read more"
+                  >
+                    Whole review
                   </a>
                 ) : null}
               </p>
             </div>
             <div className="flex h-1/4 items-center justify-between">
-              <p className="text-gray-400">
+              <p className="text-gray-500">
                 {new Date(review.time_created).toLocaleDateString()}
               </p>
               <a
@@ -122,7 +126,8 @@ const Review = async () => {
               >
                 <Image
                   src={yelpLogo}
-                  className=" h-full w-full object-contain"
+                  alt="yelp logo"
+                  className=" h-12 object-contain"
                 ></Image>
               </a>
             </div>

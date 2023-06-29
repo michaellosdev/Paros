@@ -23,49 +23,6 @@ import q from "@/public/static/images/q.webp";
 const images = [a, p, b, c, j, d, q, e, m, f, g, h, i, k, l, n];
 
 function page() {
-  const [formState, setFormState] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    messageBody: "",
-  });
-
-  const handleChange = (e) => {
-    setFormState({
-      ...formState,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        body: JSON.stringify({
-          firstName: formState.firstName,
-          lastName: formState.lastName,
-          email: formState.email,
-          messageBody: formState.messageBody,
-        }), // <-- this is the important part
-      });
-      console.log(response);
-
-      if (response.ok) {
-        alert("Thank you for your message! We will get back to you shortly.");
-        setFormState({
-          firstName: "",
-          lastName: "",
-          email: "",
-          messageBody: "",
-        });
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
   return (
     <div className="flex h-fit w-full flex-col items-center ">
       <Slideshow
@@ -77,7 +34,7 @@ function page() {
           {" "}
           Contact Us
         </h1>
-        <form className="space-y-4" onSubmit={handleSubmit}>
+        <form className="space-y-4" onSubmit={handleSubmit} netlify>
           <div className="flex space-x-4">
             <input
               type="text"
@@ -105,6 +62,7 @@ function page() {
             onChange={handleChange}
           />
           <textarea
+            type="text"
             name="messageBody"
             placeholder="Message"
             className="w-full rounded border px-4 py-2"

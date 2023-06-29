@@ -34,28 +34,19 @@ function page() {
           {" "}
           Contact Us
         </h1>
-        <form
-          className="space-y-4"
-          onSubmit={handleSubmit}
-          data-netlify="true"
-          method="POST"
-        >
+        <form className="space-y-4" data-netlify="true" method="POST">
           <div className="flex space-x-4">
             <input
               type="text"
               name="firstName"
               placeholder="First Name"
               className="w-1/2 rounded border px-4 py-2"
-              value={formState.firstName}
-              onChange={handleChange}
             />
             <input
               type="text"
               name="lastName"
               placeholder="Last Name"
               className="w-1/2 rounded border px-4 py-2"
-              value={formState.lastName}
-              onChange={handleChange}
             />
           </div>
           <input
@@ -63,16 +54,12 @@ function page() {
             name="email"
             placeholder="Email"
             className="w-full rounded border px-4 py-2"
-            value={formState.email}
-            onChange={handleChange}
           />
           <textarea
             type="text"
             name="messageBody"
             placeholder="Message"
             className="w-full rounded border px-4 py-2"
-            value={formState.messageBody}
-            onChange={handleChange}
           />
           <button
             type="submit"

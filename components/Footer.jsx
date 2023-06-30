@@ -9,7 +9,7 @@ import menu from "@/public/static/images/menu.jpg";
 
 function Footer() {
   return (
-    <div className="primary-bg h-fit text-gray-300 md:h-[60vh]">
+    <div className="primary-bg h-fit text-gray-800 md:h-[60vh]">
       {/* footer container */}
       <div className="flex h-fit w-full flex-col items-center justify-center md:h-[70%] md:flex-row">
         {/* footer top */}

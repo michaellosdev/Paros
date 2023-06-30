@@ -1,5 +1,6 @@
 import Gallery from "@/components/Gallery";
 import OrderButton from "@/components/OrderButton";
+import { AnimateOnView } from "@/components/AnimateOnVies";
 
 export async function generateMetadata({ params }) {
   return {
@@ -10,7 +11,18 @@ export async function generateMetadata({ params }) {
 
 function page() {
   return (
-    <div className="flex h-fit w-full flex-col items-center ">
+    <AnimateOnView
+      activeStyleClass="flex h-fit w-full flex-col items-center "
+      activeStyle={{
+        opacity: 1,
+        transform: "translateY(0)",
+        transition: "all 1s ease-in-out",
+      }}
+      inactiveStyle={{
+        opacity: 0,
+        transform: "translateY(100px)",
+      }}
+    >
       {/* menu banner */}
       <div className="darker-blue-bg mb-4 flex h-20 w-full items-center justify-center">
         <h1 className="text-3xl font-semibold text-white lg:text-4xl ">
@@ -22,14 +34,17 @@ function page() {
         {/* build your plate section*/}
         <div className="w-full">
           {/* header */}
+
           <div className="darker-blue-text darker-blue-border flex h-20 w-full items-end justify-between border-b-4 pb-2">
             <h2 className="text-2xl font-semibold lg:text-5xl">
               BUILD YOUR PLATE
             </h2>
             <h2 className="text-2xl font-light lg:text-5xl">$16.00</h2>
           </div>
+
           {/* build your plate body */}
           {/* base section */}
+
           <div>
             <h3 className="darker-blue-text my-4 text-2xl font-medium">BASE</h3>
             <div className="flex h-fit w-full flex-col justify-between text-xl">
@@ -40,12 +55,14 @@ function page() {
               </ul>
             </div>
           </div>
+
           {/* protein section */}
           <div className="">
             <h3 className="darker-blue-text my-4 text-2xl font-medium">
               {" "}
               PROTEIN
             </h3>
+
             <div className="flex flex-col text-xl lg:flex-row ">
               {/* left */}
               <div className="flex h-fit w-full flex-col justify-between lg:w-1/2">
@@ -122,6 +139,7 @@ function page() {
               </div>
             </div>
           </div>
+
           {/* sides section */}
           <div className="">
             <h3 className="darker-blue-text my-4 text-2xl font-medium">
@@ -709,7 +727,7 @@ function page() {
         <Gallery />
       </div>
       <OrderButton />
-    </div>
+    </AnimateOnView>
   );
 }
 

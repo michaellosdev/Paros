@@ -1,15 +1,18 @@
+"use client";
+
 import Image from "next/image";
 import user from "@/public/static/images/user.png";
 import o from "@/public/static/images/o.jpg";
 import o1 from "@/public/static/images/o1.jpg";
 import yelp5stars from "@/public/static/images/large_5@3x.png";
 import yelpLogo from "@/public/static/images/yelp1.png";
+import { AnimateOnView } from "./AnimateOnVies";
 
-const config = {
-  headers: {
-    Authorization: `Bearer ${process.env.NEXT_PUBLIC_YELP_API_KEY}`,
-  },
-};
+// const config = {
+//   headers: {
+//     Authorization: `Bearer ${process.env.NEXT_PUBLIC_YELP_API_KEY}`,
+//   },
+// };
 
 // const getData = async () => {
 //   const res = await fetch(
@@ -81,58 +84,74 @@ const Review = async () => {
   return (
     <div className="flex h-fit w-full flex-col items-center">
       {data.reviews.map((review) => (
-        <div className=" my-4 flex h-60 w-[100%] rounded-lg bg-gray-100 shadow-lg xl:w-[60%]">
-          {/* left side */}
-          <div className="flex h-full w-1/3 flex-col items-center justify-center ">
-            <div>
-              <Image
-                alt="user image"
-                src={review.user.image_url}
-                className="h-20 w-20 rounded-full object-cover"
-              ></Image>
-            </div>
-            <h3 className="text-lg font-semibold">{review.user.name}</h3>
-            <div className="mt-2 w-[70%] md:w-[40%]">
-              <Image
-                src={yelp5stars}
-                alt="yelp 5 start rating"
-                className="h-full w-full object-contain"
-              />
-            </div>
-          </div>
-          {/* right side */}
-          <div className="flex h-full w-2/3 flex-col justify-between px-3 pt-3 md:p-8">
-            <div className="h-2/3">
-              <p className="text-md">
-                {review.text}{" "}
-                {review.text.endsWith("...") ? (
-                  <a
-                    href={review.url}
-                    className="darker-blue-text"
-                    aria-label="read more"
-                  >
-                    Whole review
-                  </a>
-                ) : null}
-              </p>
-            </div>
-            <div className="flex h-1/4 items-center justify-between">
-              <p className="text-gray-500">
-                {new Date(review.time_created).toLocaleDateString()}
-              </p>
-              <a
-                href="https://www.yelp.com/biz/paros-family-restaurant-san-fernando-valley"
-                className="w-[10%]"
-              >
+        <AnimateOnView
+          activeStyle={{
+            opacity: 1,
+            transform: "translateY(0)",
+            transition: "all 1s ease-in-out",
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+          }}
+          inactiveStyle={{
+            opacity: 0,
+            transform: "translateY(100px)",
+            transition: "all 1s ease-in-out",
+          }}
+        >
+          <div className=" my-4 flex h-60 w-[100%] rounded-lg bg-gray-100 shadow-lg xl:w-[60%]">
+            {/* left side */}
+            <div className="flex h-full w-1/3 flex-col items-center justify-center ">
+              <div>
                 <Image
-                  src={yelpLogo}
-                  alt="yelp logo"
-                  className=" h-12 object-contain"
+                  alt="user image"
+                  src={review.user.image_url}
+                  className="h-20 w-20 rounded-full object-cover"
                 ></Image>
-              </a>
+              </div>
+              <h3 className="text-lg font-semibold">{review.user.name}</h3>
+              <div className="mt-2 w-[70%] md:w-[40%]">
+                <Image
+                  src={yelp5stars}
+                  alt="yelp 5 start rating"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+            </div>
+            {/* right side */}
+            <div className="flex h-full w-2/3 flex-col justify-between px-3 pt-3 md:p-8">
+              <div className="h-2/3">
+                <p className="text-md">
+                  {review.text}{" "}
+                  {review.text.endsWith("...") ? (
+                    <a
+                      href={review.url}
+                      className="darker-blue-text"
+                      aria-label="read more"
+                    >
+                      Whole review
+                    </a>
+                  ) : null}
+                </p>
+              </div>
+              <div className="flex h-1/4 items-center justify-between">
+                <p className="text-gray-500">
+                  {new Date(review.time_created).toLocaleDateString()}
+                </p>
+                <a
+                  href="https://www.yelp.com/biz/paros-family-restaurant-san-fernando-valley"
+                  className="w-[10%]"
+                >
+                  <Image
+                    src={yelpLogo}
+                    alt="yelp logo"
+                    className=" h-12 object-contain"
+                  ></Image>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
+        </AnimateOnView>
       ))}
     </div>
   );

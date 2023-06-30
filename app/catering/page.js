@@ -1,6 +1,7 @@
 import Gallery from "@/components/Gallery";
 import OrderButton from "@/components/OrderButton";
 import Link from "next/link";
+import { AnimateOnView } from "@/components/AnimateOnVies";
 
 export async function generateMetadata({ params }) {
   return {
@@ -11,7 +12,18 @@ export async function generateMetadata({ params }) {
 
 function page() {
   return (
-    <div className="flex h-fit w-full flex-col items-center ">
+    <AnimateOnView
+      activeStyleClass="flex h-fit w-full flex-col items-center "
+      activeStyle={{
+        opacity: 1,
+        transform: "translateY(0)",
+        transition: "all 1s ease-in-out",
+      }}
+      inactiveStyle={{
+        opacity: 0,
+        transform: "translateY(100px)",
+      }}
+    >
       <div className="darker-blue-bg mb-4 flex h-20 w-full items-center justify-center">
         <h1 className="text-3xl font-semibold text-white lg:text-4xl ">
           {" "}
@@ -656,7 +668,7 @@ function page() {
       </div>
 
       {/* <OrderButton /> */}
-    </div>
+    </AnimateOnView>
   );
 }
 

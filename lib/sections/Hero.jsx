@@ -19,7 +19,7 @@ function Hero() {
         Join the Tradition: Become Part of Paros, a Family and a Community
       </p>
       <Button
-        external={true}
+        href="/menu"
         className="mt-8 bg-darker transition-all duration-200 ease-in-out hover:bg-primary hover:text-white"
         label="see the menu"
         iconEnd={restaurantIcon}

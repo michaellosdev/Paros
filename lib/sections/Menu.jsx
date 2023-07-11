@@ -49,7 +49,7 @@ function Menu() {
               </div>
             ))}
           </div>
-          <h3 className="mt-4 text-h4 lg:text-h3">Protein</h3>
+          <h3 className="mt-4 text-h4 lg:text-h3">Sides</h3>
           <div className="mt-4 flex flex-wrap ">
             {menu.Sides.map((item, index) => (
               <div

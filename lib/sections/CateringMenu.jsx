@@ -70,7 +70,7 @@ function CateringMenu() {
                   <li key={index}>{side.name}</li>
                 ))}
               </ul>
-              <p className="mt-4 text-bodyLarge font-semibold">Pick 3 SIdes:</p>
+              <p className="mt-4 text-bodyLarge font-semibold">Pick 3 Sides:</p>
               <ul>
                 {menu.Sides.map((side, index) => (
                   <li key={index}>{side.name}</li>

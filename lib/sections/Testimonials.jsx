@@ -23,6 +23,7 @@ function Testimonials() {
             <Image
               src={o}
               className="mr-4 h-16 w-16 rounded-full lg:h-24 lg:w-24"
+              alt="person avatar"
             ></Image>
             <div>
               <h4 className="text-h4 md:text-h3">Anjelica H.</h4>
@@ -43,10 +44,18 @@ function Testimonials() {
           {/* footer */}
           <div className="flex h-24 w-full items-center justify-between">
             <div className="h-fit">
-              <Image src={stars} className="w-[65%] "></Image>
+              <Image
+                src={stars}
+                className="w-[65%] "
+                alt="yelp stars 5"
+              ></Image>
             </div>
             <div className="flex h-full w-[20%] items-center  ">
-              <Image src={yelp1} className="h-16 w-full object-contain"></Image>
+              <Image
+                src={yelp1}
+                className="h-16 w-full object-contain"
+                alt="yelp logo"
+              ></Image>
             </div>
           </div>
         </Card>
@@ -56,6 +65,7 @@ function Testimonials() {
             <Image
               src={o1}
               className="mr-4 h-16 w-16 rounded-full lg:h-24 lg:w-24"
+              alt="person avatar"
             ></Image>
             <div>
               <h4 className="text-h4 md:text-h3">Stewart H.</h4>
@@ -74,10 +84,18 @@ function Testimonials() {
           {/* footer */}
           <div className="flex h-24 w-full items-center justify-between">
             <div className="h-fit">
-              <Image src={stars} className="w-[65%] "></Image>
+              <Image
+                src={stars}
+                className="w-[65%] "
+                alt="yelp 5 stars"
+              ></Image>
             </div>
             <div className="flex h-full w-[20%] items-center ">
-              <Image src={yelp1} className="h-16 w-full object-contain"></Image>
+              <Image
+                src={yelp1}
+                className="h-16 w-full object-contain"
+                alt="yelp logo"
+              ></Image>
             </div>
           </div>
         </Card>

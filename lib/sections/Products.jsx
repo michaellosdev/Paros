@@ -23,6 +23,7 @@ function Products() {
           body="Juicy, flavorful beef, slow-cooked to perfection and accompanied by your choice of two delicious sides."
           img={n}
           className="w-full md:w-[49%] lg:w-[32%]"
+          alt="Beef Ranchera"
         >
           <Button
             external
@@ -36,6 +37,7 @@ function Products() {
           body="Savor our Chicken Kabob: Perfectly grilled, spice-marinated chicken served with your choice of two sides"
           img={k}
           className="w-full md:w-[49%] lg:w-[32%]"
+          alt="Chicken Kabob"
         >
           <Button
             external
@@ -49,6 +51,7 @@ function Products() {
           body="Tender, succulent cuts of lamb expertly grilled and paired with your selection of two sides"
           img={g}
           className="w-full md:hidden md:w-[49%] lg:block lg:w-[32%]"
+          alt="Lamb Chops"
         >
           <Button
             external

@@ -63,13 +63,25 @@ function AboutUs() {
         <div className="hidden   flex-col lg:flex lg:w-1/2">
           <div className="flex w-full justify-between">
             <div className=" h-full w-[32%] border shadow-lg ">
-              <Image src={k} className="h-full w-full object-cover"></Image>
+              <Image
+                src={k}
+                className="h-full w-full object-cover"
+                alt="kebab"
+              ></Image>
             </div>
             <div className="h-full w-[32%]  border shadow-lg ">
-              <Image src={a} className="h-full w-full object-cover"></Image>
+              <Image
+                src={a}
+                className="h-full w-full object-cover"
+                alt="tomato sause"
+              ></Image>
             </div>
             <div className="h-full w-[32%] border shadow-lg">
-              <Image src={c} className="h-full w-full object-cover"></Image>
+              <Image
+                src={c}
+                className="h-full w-full object-cover"
+                alt="dip"
+              ></Image>
             </div>
           </div>
 
@@ -78,12 +90,14 @@ function AboutUs() {
               <Image
                 src={l}
                 className="h-full w-full object-cover shadow-lg"
+                alt="chicken"
               ></Image>
             </div>
             <div className="h-full  w-[49%]">
               <Image
                 src={g}
                 className="h-full w-full object-cover shadow-lg"
+                alt="chicken"
               ></Image>
             </div>
           </div>

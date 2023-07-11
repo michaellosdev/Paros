@@ -22,6 +22,7 @@ function Card({ children, ...props }) {
           <Image
             src={props.img}
             className="h-full w-full rounded-2xl object-cover"
+            alt={props.alt}
           ></Image>
         </div>
       ) : (

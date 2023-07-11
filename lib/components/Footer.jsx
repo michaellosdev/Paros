@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "@/public/static/images/logo-white.png";
+import logo from "@/public/static/images/Logo-white.png";
 import yelp from "@/public/static/images/yelp.png";
 import facebook from "@/public/static/images/facebook.png";
 import instagram from "@/public/static/images/instagram.png";

@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
-import logo from "@/public/static/images/logo-white.png";
+import logo from "@/public/static/images/Logo-white.png";
 
 function Nav({ ...props }) {
   const [open, setOpen] = useState(false);

@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @import "material-icons/iconfont/material-icons.css";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,300;1,400&display=swap");
+
 
 @layer base {
   html {
     font-family: "Montserrat", sans-serif;
   }
+}
+
+.cursive {
+  font-family: "Kaushan Script", cursive!important;
 }
 
 .primary-bg {
@@ -47,7 +51,7 @@
 
 .menu-item::before {
   content: "";
-  background: #01aef0;
+  background: #0066b3;
   position: absolute;
   bottom: 0;
   left: 0;

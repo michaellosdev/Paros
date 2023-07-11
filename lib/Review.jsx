@@ -6,7 +6,7 @@ import o from "@/public/static/images/o.jpg";
 import o1 from "@/public/static/images/o1.jpg";
 import yelp5stars from "@/public/static/images/large_5@3x.png";
 import yelpLogo from "@/public/static/images/yelp1.png";
-import { AnimateOnView } from "./AnimateOnVies";
+import { AnimateOnView } from "./utils/AnimateOnVies";
 
 // const config = {
 //   headers: {

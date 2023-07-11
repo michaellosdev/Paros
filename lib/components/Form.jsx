@@ -18,7 +18,7 @@ function Form() {
         <div className="border-accent flex h-[10%] w-full items-center justify-between rounded-xl border-4 ">
           <label className="sr-only">Name</label>
           <input
-            className="bg-secondary text-dark-grey75 placeholder:text-dark-grey25 h-full w-full rounded-xl px-4 text-[1.25rem] text-h4 font-normal placeholder:font-light md:text-h4"
+            className="bg-secondary placeholder:text-dark-grey25 h-full w-full rounded-xl px-4 text-[1.25rem] text-h4 font-normal text-black placeholder:font-light md:text-h4"
             type="text"
             placeholder="Full Name"
             name="name"
@@ -28,7 +28,7 @@ function Form() {
         <div className="border-accent flex h-[10%] w-full items-center  justify-between rounded-xl border-4">
           <label className="sr-only">Email</label>
           <input
-            className="bg-secondary text-dark-grey75 placeholder:text-dark-grey25 h-full w-full rounded-xl px-4 text-[1.25rem] text-h4 font-normal placeholder:font-light md:text-h4"
+            className="bg-secondary placeholder:text-dark-grey25 h-full w-full rounded-xl px-4 text-[1.25rem] text-h4 font-normal text-black placeholder:font-light md:text-h4"
             type="email"
             name="email"
             placeholder="Email"
@@ -38,7 +38,7 @@ function Form() {
         <div className="border-accent flex h-[10%] w-full items-center justify-between rounded-xl border-4 ">
           <label className="sr-only">Phone</label>
           <input
-            className="bg-secondary text-dark-grey75 placeholder:text-dark-grey25 h-full w-full rounded-xl px-4 text-[1.25rem] text-h4 font-normal placeholder:font-light md:text-h4"
+            className="bg-secondary placeholder:text-dark-grey25 h-full w-full rounded-xl px-4 text-[1.25rem] text-h4 font-normal text-black placeholder:font-light md:text-h4"
             type="number"
             name="phone"
             placeholder="Phone"
@@ -47,7 +47,7 @@ function Form() {
         <div className="border-accent flex h-[45%] w-full items-center justify-between rounded-xl border-4 ">
           <label className="sr-only">Message</label>
           <textarea
-            className="bg-secondary text-dark-grey75 placeholder:text-dark-grey25 h-full w-full resize-none rounded-xl px-4 pt-4 text-[1.25rem] text-h4 font-normal placeholder:font-light md:text-h4"
+            className="bg-secondary placeholder:text-dark-grey25 h-full w-full resize-none rounded-xl px-4 pt-4 text-[1.25rem] text-h4 font-normal text-black placeholder:font-light md:text-h4"
             type="text"
             name="message"
             placeholder="Message"

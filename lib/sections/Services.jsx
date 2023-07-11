@@ -9,9 +9,9 @@ function Services() {
     <div className="bg-darker px-8 py-16 md:px-16 2xl:px-96">
       <h2 className="text-h3 text-white  lg:text-h2">Or let us come to you</h2>
       <p className="mt-8 text-bodyLarge text-white ">
-        Whether you want to visit us or prefer us to bring Paro's experience to
+        Whether you want to visit us or prefer us to bring Paros experience to
         you, the choice is yours. Our comprehensive catering services extend the
-        ambiance and culinary excellence of Paro's Family Restaurant to your
+        ambiance and culinary excellence of Paros Family Restaurant to your
         special events. From private parties to corporate gatherings, our
         dedicated team is ready to create an unforgettable Mediterranean feast
         for you and your guests. We handle all the details so you can savor the

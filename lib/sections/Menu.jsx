@@ -144,7 +144,7 @@ function Menu() {
       </div>
       <div className="h-fit  bg-white  px-8 py-8 md:px-16 2xl:px-96">
         <div className=" my-4 flex justify-between border-b-4 border-darker py-2">
-          <h2 className="text-left text-h4 text-darker lg:text-h3">Salads</h2>
+          <h2 className="text-left text-h4 text-darker lg:text-h3">Sides</h2>
           <label className="relative inline-flex cursor-pointer items-center">
             <input
               type="checkbox"
@@ -171,14 +171,14 @@ function Menu() {
               {size ? (
                 item.price?.small ? (
                   <p className=" text-body font-semibold">
-                    +${item.price?.small?.toFixed(2)}
+                    ${item.price?.small?.toFixed(2)}
                   </p>
                 ) : (
                   ""
                 )
               ) : (
                 <p className=" text-body font-semibold">
-                  +${item.price?.large?.toFixed(2)}
+                  ${item.price?.large?.toFixed(2)}
                 </p>
               )}
             </div>
@@ -201,7 +201,7 @@ function Menu() {
               </h4>
               {item.price ? (
                 <p className=" text-body font-semibold">
-                  +${item.price.toFixed(2)}
+                  ${item.price.toFixed(2)}
                 </p>
               ) : (
                 ""
@@ -222,7 +222,7 @@ function Menu() {
               </h4>
               {item.price ? (
                 <p className=" text-body font-semibold">
-                  +${item.price.toFixed(2)}
+                  ${item.price.toFixed(2)}
                 </p>
               ) : (
                 ""

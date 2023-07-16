@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { Loader } from "@googlemaps/js-api-loader";
-import locationMarker from "@/public/static/images/location-pointer.png";
+import locationMarker from "@/public/location-pointer.png";
 
 const loader = new Loader({
   apiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY,

@@ -15,6 +15,7 @@ const ButtonComponent = ({ ...props }) => {
   return (
     <button
       className={`flex items-center justify-center rounded-[12px] px-8 py-4 text-label uppercase ${props.className} `}
+      type={props.type}
     >
       <Image src={props.iconStart} alt={props.alt} className=" pr-4"></Image>
 
@@ -52,6 +53,7 @@ function Button({ ...props }) {
             iconStart={props.iconStart}
             iconEnd={props.iconEnd}
             alt={props.alt}
+            type={props.type}
           />{" "}
         </Link>
       )}

@@ -2,7 +2,7 @@
 
 import React from "react";
 import Button from "../components/Button";
-import restaurantIcon from "@/public/static/icons/restaurant.svg";
+import restaurantIcon from "@/public/restaurant.svg";
 
 function Hero() {
   return (

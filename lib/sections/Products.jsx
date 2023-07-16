@@ -2,9 +2,9 @@
 
 import React from "react";
 import Card from "../components/Card";
-import n from "@/public/static/images/n.webp";
-import k from "@/public/static/images/k.webp";
-import g from "@/public/static/images/g.webp";
+import n from "@/public/n.webp";
+import k from "@/public/k.webp";
+import g from "@/public/g.webp";
 import Button from "../components/Button";
 
 function Products() {

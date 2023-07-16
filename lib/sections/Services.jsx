@@ -2,7 +2,6 @@
 
 import React from "react";
 import Button from "../components/Button";
-import restaurantIcon from "@/public/static/icons/restaurant.svg";
 
 function Services() {
   return (

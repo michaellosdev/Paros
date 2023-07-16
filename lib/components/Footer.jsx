@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import logo from "@/public/static/images/Logo-white.png";
-import yelp from "@/public/static/images/yelp.png";
-import facebook from "@/public/static/images/facebook.png";
-import instagram from "@/public/static/images/instagram.png";
-// import menu from "@/public/static/images/menu.png";
-import menu from "@/public/static/images/menu.jpg";
+import logo from "@/public/Logo-white.png";
+import yelp from "@/public/yelp.png";
+import facebook from "@/public/facebook.png";
+import instagram from "@/public/instagram.png";
+// import menu from "@/public/menu.png";
+import menu from "@/public/menu.jpg";
 
 function Footer() {
   return (

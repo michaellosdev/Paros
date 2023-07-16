@@ -2,10 +2,10 @@
 
 import React from "react";
 import Card from "../components/Card";
-import yelp1 from "@/public/static/images/yelp1.png";
-import o from "@/public/static/images/o.jpg";
-import o1 from "@/public/static/images/o1.jpg";
-import stars from "@/public/static/images/large_5@3x.png";
+import yelp1 from "@/public/yelp1.png";
+import o from "@/public/o.jpg";
+import o1 from "@/public/o1.jpg";
+import stars from "@/public/large_5@3x.png";
 import Image from "next/image";
 
 function Testimonials() {

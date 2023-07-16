@@ -3,16 +3,16 @@
 import React from "react";
 import Image from "next/image";
 import SwipeShow from "../utils/SwipeShow";
-import a from "@/public/static/images/a.webp";
-import k from "@/public/static/images/k.webp";
-import c from "@/public/static/images/c.webp";
-import m from "@/public/static/images/m.webp";
-import e from "@/public/static/images/e.webp";
-import l from "@/public/static/images/l.webp";
-import g from "@/public/static/images/g.webp";
-import skewer from "@/public/static/images/skewer.png";
+import a from "@/public/a.webp";
+import k from "@/public/k.webp";
+import c from "@/public/c.webp";
+import m from "@/public/m.webp";
+import e from "@/public/e.webp";
+import l from "@/public/l.webp";
+import g from "@/public/g.webp";
+import skewer from "@/public/skewer.png";
 import Button from "../components/Button";
-import restaurantIcon from "@/public/static/icons/restaurant.svg";
+import restaurantIcon from "@/public/restaurant.svg";
 
 function AboutUs() {
   return (

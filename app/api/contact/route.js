@@ -1,13 +1,14 @@
 import nodemailer from "nodemailer";
+import { NextResponse } from "next/server";
 
-export const POST = async (request) => {
-  const { email, subject, messageBody } = request.json();
+export async function POST(request) {
+  const { email, messageBody, fullName, phoneNum } = await request.json();
 
   const message = {
     from: email,
     to: process.env.NEXT_PUBLIC_EMAIL_ADDRESS,
-    subject: subject,
-    text: messageBody,
+    subject: fullName,
+    text: `Name: ${fullName}\nPhone: ${phoneNum} \nEmail: ${email}\nMessage: ${messageBody}`,
   };
 
   const transporter = nodemailer.createTransport({
@@ -19,13 +20,15 @@ export const POST = async (request) => {
   });
 
   try {
+    // console.log(message);
     await transporter.sendMail(message);
 
-    return new Response("Email sent", { status: 200 });
+    return NextResponse.json({ message: "Email sent" });
   } catch (error) {
-    return new Response("Error sending email", { status: 500 });
+    console.log(error);
+    return NextResponse.json({ message: "Email failed to send" });
   }
-};
+}
 
 // export const GET = async (request) => {
 //   return new Response(JSON.stringify({ message: "Hello world" }));

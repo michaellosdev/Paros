@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url(../public/static/images/hero.webp)",
-        "hero-mobile": "url(../public/static/images/hero-mobile.webp)",
+        hero: "url(../public/hero.webp)",
+        "hero-mobile": "url(../public/hero-mobile.webp)",
       },
       colors: {
         primary: "#00AEEF",

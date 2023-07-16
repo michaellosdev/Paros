@@ -9,7 +9,7 @@ import Button from "../components/Button";
 
 function Products() {
   return (
-    <div className="h-fit bg-primary px-8 py-16 md:px-16  2xl:px-96">
+    <div className="h-fit bg-primary px-8 py-16 md:px-16  2xl:px-48">
       {/* section header */}
       <div className="flex h-16 items-center ">
         <h2 className=" text-h3 text-white lg:text-h2">
@@ -33,11 +33,11 @@ function Products() {
           />
         </Card>
         <Card
-          header="Chicken Kabob"
-          body="Savor our Chicken Kabob: Perfectly grilled, spice-marinated chicken served with your choice of two sides"
+          header="Chicken Lule Kabob"
+          body="Savor our Chicken Lule Kabob: Perfectly grilled, spice-marinated chicken served with your choice of two sides"
           img={k}
           className="w-full md:w-[49%] lg:w-[32%]"
-          alt="Chicken Kabob"
+          alt="Chicken Lule Kabob"
         >
           <Button
             external

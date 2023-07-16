@@ -5,7 +5,7 @@ import Button from "../components/Button";
 
 function Services() {
   return (
-    <div className="bg-darker px-8 py-16 md:px-16 2xl:px-96">
+    <div className="bg-darker px-8 py-16 md:px-16 2xl:px-48">
       <h2 className="text-h3 text-white  lg:text-h2">Or let us come to you</h2>
       <p className="mt-8 text-bodyLarge text-white ">
         Whether you want to visit us or prefer us to bring Paros experience to

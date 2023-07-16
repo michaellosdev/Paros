@@ -16,7 +16,7 @@ import restaurantIcon from "@/public/restaurant.svg";
 
 function AboutUs() {
   return (
-    <div className="h-fit bg-gray-100 px-8 py-16 md:px-16 2xl:px-96">
+    <div className="h-fit bg-gray-100 px-8 py-16 md:px-16 2xl:px-48">
       {/* section header */}
       <div className="flex h-16 items-center ">
         <h2 className=" text-h3 text-darker lg:text-h2">Welcome to Paros</h2>

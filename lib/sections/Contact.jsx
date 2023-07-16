@@ -5,7 +5,7 @@ import Form from "../components/Form";
 
 function Contact() {
   return (
-    <div className="flex h-fit flex-col bg-dark px-8  py-16 text-white md:px-16 lg:flex-row 2xl:px-96">
+    <div className="flex h-fit flex-col bg-dark px-8  py-16 text-white md:px-16 lg:flex-row 2xl:px-48">
       <div className="w-full  lg:w-1/2">
         <h3 className="text-h4 lg:text-h3">Hours of Operation:</h3>
         <p className="mt-4 text-[24px] text-h5">Monday - Sunday</p>

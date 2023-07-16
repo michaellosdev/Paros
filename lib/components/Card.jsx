@@ -15,10 +15,10 @@ function Card({ children, ...props }) {
       ) : (
         ""
       )}
-      {props.body ? <p className="mt-4  text-body">{props.body}</p> : ""}
+      {props.body ? <p className="mt-4 h-24  text-body">{props.body}</p> : ""}
 
       {props.img ? (
-        <div className={`mb-4 mt-4 h-64 w-full rounded-2xl `}>
+        <div className={`mb-4 mt-4 h-96 w-full rounded-2xl `}>
           <Image
             src={props.img}
             className="h-full w-full rounded-2xl object-cover"

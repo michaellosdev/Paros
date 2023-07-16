@@ -6,7 +6,7 @@ import restaurantIcon from "@/public/restaurant.svg";
 
 function Hero() {
   return (
-    <div className=" flex h-[48rem] flex-col items-center justify-center bg-hero-mobile bg-contain bg-fixed  bg-no-repeat px-8  text-center text-white md:bg-cover md:px-16 lg:h-screen lg:bg-hero  2xl:px-48">
+    <div className=" flex h-[48rem] flex-col items-center justify-center bg-hero-mobile bg-contain bg-fixed  bg-no-repeat px-8  text-center text-white md:bg-cover md:px-16 lg:h-screen lg:bg-[url(/hero.webp)]  2xl:px-36">
       <h1 className=" text-center  text-h3 uppercase leading-none lg:text-[72px] lg:text-display ">
         <span
           className={`font-cursive font-normal capitalize text-gray-lightest`}

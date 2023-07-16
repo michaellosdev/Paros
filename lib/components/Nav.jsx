@@ -21,7 +21,7 @@ function Nav({ ...props }) {
   }, [open]);
 
   return (
-    <header className=" absolute top-0 z-[999] flex h-24 w-full  items-center justify-between  bg-transparent px-8 py-12 text-h2  md:px-16 lg:h-36 2xl:px-96">
+    <header className=" absolute top-0 z-[999] flex h-24 w-full  items-center justify-between  bg-transparent px-8 py-12 text-h2  md:px-16 lg:h-36 2xl:px-48">
       <div className="z-[999] flex h-36 w-36 items-center justify-center">
         <Image src={logo} alt="logo" className="object-fit " />
       </div>
